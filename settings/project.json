@@ -1,9 +1,14 @@
 {
   "group-list": [
-    "default"
+    "default",
+    "player"
   ],
   "collision-matrix": [
     [
+      false
+    ],
+    [
+      false,
       true
     ]
   ],
@@ -34,6 +39,5 @@
     "live": {
       "enable": false
     }
-  },
-  "start-scene": "current"
+  }
 }
