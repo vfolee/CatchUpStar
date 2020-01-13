@@ -83,12 +83,29 @@ cc.Class({
         // 初始化键盘输入监听
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
+
+        cc.director.getCollisionManager().enabled = true;
+        cc.director.getCollisionManager().enabledDebugDraw = false;
     },
 
     onDestroy () {
         // 取消键盘输入监听
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN,this.onKeyDown, this);
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_UP,this.onKeyUp, this);
+    },
+
+    onCollisionEnter: function (other,self) {
+        let another = other.node._components[1];
+        if(this.xSpeed * another.xSpeed >= 0) {
+            (Math.abs(this.xSpeed) >= Math.abs(another.xSpeed)) ? (this.xSpeed -= another.xSpeed) : (this.xSpeed += another.xSpeed);
+        } else if (this.xSpeed * another.xSpeed < 0) {
+            if (Math.abs(this.xSpeed) == Math.abs(another.xSpeed)) {
+                this.xSpeed = -this.xSpeed;
+            }
+            else {
+                (Math.abs(this.xSpeed) > Math.abs(another.xSpeed)) ? (this.xSpeed += another.xSpeed) : (this.xSpeed = another.xSpeed - this.xSpeed);
+            }
+        }
     },
 
     start () {

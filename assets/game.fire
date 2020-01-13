@@ -186,7 +186,7 @@
       "array": [
         0,
         0,
-        421.744279894083,
+        423.4864224505905,
         0,
         0,
         0,
@@ -476,8 +476,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -300,
-        -184.69,
+        -317,
+        -185,
         0,
         0,
         0,
@@ -497,8 +497,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "eec5HlN4BHRJ8vzJxOV/3K"
   },
   {
@@ -520,7 +520,7 @@
       "__uuid__": "a7d32fc1-4a29-491e-a5e2-0892063d35d0"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -543,7 +543,7 @@
     "_enabled": true,
     "jumpHeight": 200,
     "jumpDuration": 0.3,
-    "maxMoveSpeed": 400,
+    "maxMoveSpeed": 500,
     "accel": 350,
     "jumpAudio": {
       "__uuid__": "dc194f1a-c8a5-46ca-aaf9-f03b70974af5"
@@ -567,8 +567,8 @@
       "x": 0,
       "y": 30
     },
-    "_radius": 36.4,
-    "_id": "57tbC3mZFDcrfAa7xUny0M"
+    "_radius": 36,
+    "_id": "5euXYfQyBDP6q9giagQB+U"
   },
   {
     "__type__": "cc.Node",
@@ -613,8 +613,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        300,
-        -184.69,
+        281,
+        -185,
         0,
         0,
         0,
@@ -634,8 +634,8 @@
     "_skewX": 0,
     "_skewY": 0,
     "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
+    "_groupIndex": 1,
+    "groupIndex": 1,
     "_id": "67RUBrthVIGpzKLAB82Pym"
   },
   {
@@ -654,10 +654,10 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a7d32fc1-4a29-491e-a5e2-0892063d35d0"
+      "__uuid__": "e1837b87-41d5-42d1-b4d5-9d558aaf9d60"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -680,7 +680,7 @@
     "_enabled": true,
     "jumpHeight": 200,
     "jumpDuration": 0.3,
-    "maxMoveSpeed": 400,
+    "maxMoveSpeed": 500,
     "accel": 350,
     "jumpAudio": {
       "__uuid__": "dc194f1a-c8a5-46ca-aaf9-f03b70974af5"
@@ -704,8 +704,8 @@
       "x": 0,
       "y": 30
     },
-    "_radius": 36.4,
-    "_id": "06n/FpqglIR4hoSDemAz8M"
+    "_radius": 36,
+    "_id": "804t7yL1dHSa4YJuOf6oNT"
   },
   {
     "__type__": "cc.Node",
